@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: #989898;
+    padding: 0 400px 0 400px;
+    /* единица 100 vh - 100% высоты экрана */
+    height: 100vh;
+}
+.HLinks{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.HContacts{
+    display: flex;
+}
+.HContacts>div{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.HContacts>div>img{
+    width: 20px;
+    margin-right: 10px;
+}
+.HMedia>img{
+    width: 20px;
+}
+.HAList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* list-style: none - убрать точки с списка */
+    list-style: none;
+}
+#Logo{
+    margin-right: 300px;
+    font-size: 35px;
+    /* font-weight - толщина символов (букв) */
+    font-weight: 600;
+    color: rgb(255, 183, 0);
+}
+.HTitle{
+    text-align: center;
+    padding-top: 80px;
+}
+.HTitle>p:first-child{
+    color: rgb(255, 183, 0);
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin: 0;  
+}
+.HTText{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 60px 0;
+}
+.HTBtns{
+    width: 180px;
+    height: 50px;
+    font-weight: 700;
+}
+.First{
+    transition: 1s;
+    background-color: rgb(255, 183, 0);
+    border: 0;
+}
+.First:hover{
+    transition: 1s;
+    background-color: #fff;
+}
+.Second{
+    background-color: #ffffff00;
+    color: white;
+    border: rgb(255, 183, 0) solid;
+}
+main{
+    background-color: #cacacadc;
+}
+.MCards{
+    background-color: #5c5c5c;
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.MCards>div{
+    width: 350px;
+    height: 250px;
+    background-color: #272727;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MOurP{
+    padding: 100px 0 100px 0;
+}
+.MOurP>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BlockTitle{
+    font-size: 30px;
+    text-align: center;
+}
+.BlockLine{
+    width: 70px;
+    border: 2px solid rgb(255, 183, 0);
+}
+.MWhy{
+    padding: 30px;
+}
+.MWLeft{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.MWRight>div{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.MWRight>div>img{
+    padding-top: 10px;
+}
+.MWhy>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0 ;
+}
